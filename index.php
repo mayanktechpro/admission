@@ -69,7 +69,7 @@
 						$('#mayankForm')[0].reset();
 
 						var delay = 7000; //Your delay in milliseconds
-						setTimeout(function(){ window.location = "http://www.google.com"; }, delay);
+						setTimeout(function(){ window.location = "https://www.google.com"; }, delay);
 					}
 				});
 				e.preventDefault();
@@ -110,14 +110,18 @@
 		display:none;
 	}
 	.done {
-		background-color: #5DE385;
+		background:url(ajax-loader.gif) no-repeat 315px 0px;
+		background-color: #20B64D;
 		color: #FFFFFF;
 		font-weight: bold;
 		font-size: 14px;
 		text-align: center;
 		margin-top: 200px;
-		width: 300px !important;
+		width: 800px !important;
 		display: none;
+		padding: 30px;
+		letter-spacing: 1;
+		font-family: sans-serif;
 
 	}
 	</style>
